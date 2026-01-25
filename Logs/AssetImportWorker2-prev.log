@@ -1,0 +1,478 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.4f1 (fdd3b8998ec4) revision 16634808'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) CoreSingleLanguage' Language: 'en' Physical Memory: 16104 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-01-23T13:06:01Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tungg" at "2026-01-23T13:06:01.8500999Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/unity project/SpaceShooterDemo
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62499
+-licensingIpc
+LicenseClient-tungg
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/unity project/SpaceShooterDemo
+D:/unity project/SpaceShooterDemo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [30000]  Target information:
+
+Player connection [30000]  * "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 3952293583 [EditorId] 3952293583 [Version] 1048832 [Id] WindowsEditor(7,CDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30000]  * "[IP] 26.184.134.222 [Port] 0 [Flags] 2 [Guid] 3952293583 [EditorId] 3952293583 [Version] 1048832 [Id] WindowsEditor(7,CDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30000]  * "[IP] 192.168.218.1 [Port] 0 [Flags] 2 [Guid] 3952293583 [EditorId] 3952293583 [Version] 1048832 [Id] WindowsEditor(7,CDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30000]  * "[IP] 192.168.24.1 [Port] 0 [Flags] 2 [Guid] 3952293583 [EditorId] 3952293583 [Version] 1048832 [Id] WindowsEditor(7,CDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30000] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30000] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 307.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.4f1 (fdd3b8998ec4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity project/SpaceShooterDemo/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7956 MB
+    Driver:   32.0.15.9174
+Shader 'Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/VR/SpatialMapping/Occlusion': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/VR/SpatialMapping/Wireframe': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/ClusterDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/Simple Lit' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Complex Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree8': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Baked Lit': fallback shader 'Universal Render Pipeline/Unlit' not found
+Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              eddc39640b6b473686aa3a0a7921ee0a
+  Correlation Id:          86da6b3eac92e8bba9d70c7aa5b2670d
+  External correlation Id: 3318440591594645402
+  Machine Id:              e4YXiyKBjBzGUHNOiheqIZTgVwc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-tungg" (connect: 0.00s, validation: 0.00s, handshake: 3.19s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-tungg-notifications" at "2026-01-23T13:06:05.0400025Z"
+[Licensing::Module] Licensing Background thread has ended after 3.19s
+[Licensing::Module] Licensing is initialized (took 1.31s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968364355619-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 1.323907 seconds.
+- Loaded All Assemblies, in  2.229 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 372 ms
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.156 seconds
+Domain Reload Profiling: 3378ms
+	BeginReloadAssembly (405ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (1419ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (397ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (287ms)
+				TypeCache.ScanAssembly (259ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1070ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (560ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.527 seconds
+Script 'VisualEffect' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 27.86 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.296 seconds
+Domain Reload Profiling: 2818ms
+	BeginReloadAssembly (315ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1056ms)
+		LoadAssemblies (742ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (474ms)
+			TypeCache.Refresh (354ms)
+				TypeCache.ScanAssembly (325ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1296ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1110ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (322ms)
+			ProcessInitializeOnLoadAttributes (668ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6955 unused Assets / (7.2 MB). Loaded Objects now: 7595.
+Memory consumption went from 147.7 MB to 140.5 MB.
+Total: 15.381200 ms (FindLiveObjects: 0.939800 ms CreateObjectMapping: 1.095300 ms MarkObjects: 9.057900 ms  DeleteObjects: 4.286500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24361.005349 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion PC.prefab
+  artifactKey: Guid(031faf5ef0ec4c34c86671fa3e2e81d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion PC.prefab using Guid(031faf5ef0ec4c34c86671fa3e2e81d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de57958310ca12c90883867396380153') in 0.1558711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/Bonus.cs
+  artifactKey: Guid(97cbb94a2e3a8f04184c0658c07a9da5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Scripts/Bonus.cs using Guid(97cbb94a2e3a8f04184c0658c07a9da5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '253c480a9e4e79bb4cdd71e9547dc4b9') in 0.0192481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/Wave.cs
+  artifactKey: Guid(5bce8ed9b64f39c44bdd9d3b9f6debe3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Scripts/Wave.cs using Guid(5bce8ed9b64f39c44bdd9d3b9f6debe3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a93d5fa02f4e8392f64d4ee3e0ec7ac1') in 0.0157737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Background/Stars-Medium_1_1.png
+  artifactKey: Guid(cae821368cd9f694f9e65ba82e1564f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/Background/Stars-Medium_1_1.png using Guid(cae821368cd9f694f9e65ba82e1564f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db97aafa57a52564c331004d2920f3fa') in 0.1007178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Space Shooter Template FREE/Animation/Bonuses/Power Up.prefab
+  artifactKey: Guid(71f89368f03bd5740a7f17e106b277bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Animation/Bonuses/Power Up.prefab using Guid(71f89368f03bd5740a7f17e106b277bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e13bbe7d36d925890a7c802553081a27') in 0.0505797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/Planets/Cream-Violet-Planet.prefab
+  artifactKey: Guid(14ba388dd3927af43809d67838649ea3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Planets/Cream-Violet-Planet.prefab using Guid(14ba388dd3927af43809d67838649ea3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e701fc2496c1bea31adefefbe1243d1') in 0.0307575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Basic.mat
+  artifactKey: Guid(1f665717674355d489e01624ad09c1cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Basic.mat using Guid(1f665717674355d489e01624ad09c1cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc85ff0dbbbd957b6b8b5c73bb3ba8e7') in 0.0271907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_01.png
+  artifactKey: Guid(cb18f36e5bca12e498f2de877e9ffff0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_01.png using Guid(cb18f36e5bca12e498f2de877e9ffff0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77053ec1f0073c6879800990836a6138') in 0.0303046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/Background/Backgrounds.prefab
+  artifactKey: Guid(5a213a4dde83c404f8856922c5fc08ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Background/Backgrounds.prefab using Guid(5a213a4dde83c404f8856922c5fc08ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46c606979316b07f2bbe71300dea61db') in 0.0524696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Space Shooter Template FREE/Animation/Power Up Ring.controller
+  artifactKey: Guid(786042d22ff31da41b99a265c2f12ffd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Animation/Power Up Ring.controller using Guid(786042d22ff31da41b99a265c2f12ffd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b0816f1922ca3e69629304eee29a737') in 0.0194773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Muzzle/Muzzle.mat
+  artifactKey: Guid(4fa12924968c51a4fbf7f67f630db413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Muzzle/Muzzle.mat using Guid(4fa12924968c51a4fbf7f67f630db413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc32cf308937c7145f727f6f6fadebfe') in 0.0374999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Space Shooter Template FREE/Scenes/BattleScene.unity
+  artifactKey: Guid(9d611d81033e4f04a8c82c521dba3a46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Scenes/BattleScene.unity using Guid(9d611d81033e4f04a8c82c521dba3a46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e87826a965672fb194ab31c894b8de73') in 0.0175205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Effect.png
+  artifactKey: Guid(99a711709045c58409b66e71ee2b3e1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Engines/Engine_01_Effect.png using Guid(99a711709045c58409b66e71ee2b3e1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c50e303a9adb905fdbe9e780db42fa4') in 0.0319857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_02.png
+  artifactKey: Guid(41a056b1e3cb7794dbcc44338c61bbd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Enemy Hit Effect/Enemy Hit Effect_02.png using Guid(41a056b1e3cb7794dbcc44338c61bbd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7446315cb4bece5cdc72b43b0551d9de') in 0.0292837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Background/Nebula_1_1_Bottom.png
+  artifactKey: Guid(6b10284ebe4e52e489cf7bd6c3aa5dfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/Background/Nebula_1_1_Bottom.png using Guid(6b10284ebe4e52e489cf7bd6c3aa5dfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57630eeaf5d90b845eda416812b6bcc6') in 0.0274783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/PoolingController.cs
+  artifactKey: Guid(d910b9ab46730bf429beca31b7d627d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Scripts/PoolingController.cs using Guid(d910b9ab46730bf429beca31b7d627d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f0ca1e411c82226f890cc283bff14d5') in 0.0156339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b39b0894e886e6cca98c83e080bbdbd2') in 0.2016542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 113
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion.prefab
+  artifactKey: Guid(45ae5851ef2832044bba82850372d67b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Enemy Explosion.prefab using Guid(45ae5851ef2832044bba82850372d67b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f5ca166d8c850bd0ef528d811f10584') in 0.0257104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/VisualEffect.cs
+  artifactKey: Guid(2a8515ff1b32ecb498437becf714b57d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Scripts/VisualEffect.cs using Guid(2a8515ff1b32ecb498437becf714b57d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2a56a3d19e1063ee2ccd240880748a1') in 0.0180918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/Background/Backgrounds 1.prefab
+  artifactKey: Guid(cac02e4a9ae0b2b4c9fd723a6ec00f47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Prefabs/Background/Backgrounds 1.prefab using Guid(cac02e4a9ae0b2b4c9fd723a6ec00f47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61609275753979a0a59f7d75fee5787e') in 0.0401146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Space Shooter Template FREE/Scripts/Boundary.cs
+  artifactKey: Guid(e886423ec74338c47b067809786a94b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Scripts/Boundary.cs using Guid(e886423ec74338c47b067809786a94b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '172258e8c477038e76011816bee1d852') in 0.0197516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Power Ups/Power Up Ring.png
+  artifactKey: Guid(835076da6ec98744ba881e9b3b379043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/Power Ups/Power Up Ring.png using Guid(835076da6ec98744ba881e9b3b379043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b79a15bac781efeae9cfef24981b408f') in 0.0255047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Planets/blue-planet.png
+  artifactKey: Guid(4824fa28ba58074488d725843f545f35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/Planets/blue-planet.png using Guid(4824fa28ba58074488d725843f545f35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ea0dec03b4bfca7fe62d8384afad753') in 0.0316591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Background/Stars-Big_1_1.png
+  artifactKey: Guid(7a583abac50037a4d8ec44a3f8e906c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/Background/Stars-Big_1_1.png using Guid(7a583abac50037a4d8ec44a3f8e906c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '634f1370189b33bd9e53d14aa23ada65') in 0.0352327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/Enemies/Enemy_01.png
+  artifactKey: Guid(3c6d6674bfcb5ac498628dff731a28f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/Enemies/Enemy_01.png using Guid(3c6d6674bfcb5ac498628dff731a28f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8706cc68d55c5ea92077440746983c8') in 0.0343126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Space Shooter Template FREE/Prefabs/VFX/Muzzle FX.prefab
+  artifactKey: Guid(9abeea789432c024ba3fbf0cd8669087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Prefabs/VFX/Muzzle FX.prefab using Guid(9abeea789432c024ba3fbf0cd8669087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79652bf62370b665459a3acf6e0f5652') in 0.1156953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Parts_PC.mat
+  artifactKey: Guid(0c9ae2a77654129478a5823b4b26bb4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Space Shooter Template FREE/Sprites/VFX/Explosions/Small Explosion_01_Parts_PC.mat using Guid(0c9ae2a77654129478a5823b4b26bb4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26e30437630f161a1580a637fe55b95f') in 0.0192616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
